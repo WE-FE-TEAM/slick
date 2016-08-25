@@ -1,11 +1,11 @@
 {
-  "name": "slick-carousel",
+  "name": "glpb-slick-carousel",
   "version": "1.6.0",
   "description": "the last carousel you'll ever need",
   "main": "slick/slick.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenwheeler/slick.git"
+    "url": "https://github.com/WE-FE-TEAM/slick"
   },
   "keywords": [
     "carousel",
@@ -45,6 +45,6 @@
     "url": "https://github.com/kenwheeler/slick/issues"
   },
   "dependencies": {
-    "jquery": ">=1.7.2"
+
   }
 }

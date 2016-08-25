@@ -14,16 +14,22 @@
   Issues: http://github.com/kenwheeler/slick/issues
 
  */
+
+/**
+ * @require ./slick.css
+ */
+
 /* global window, document, define, jQuery, setInterval, clearInterval */
 (function(factory) {
     'use strict';
-    if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
-    } else if (typeof exports !== 'undefined') {
-        module.exports = factory(require('jquery'));
-    } else {
-        factory(jQuery);
-    }
+    // if (typeof define === 'function' && define.amd) {
+    //     define(['jquery'], factory);
+    // } else if (typeof exports !== 'undefined') {
+    //     module.exports = factory(require('jquery'));
+    // } else {
+    //     factory(jQuery);
+    // }
+    factory(window.jQuery);
 
 }(function($) {
     'use strict';
